@@ -1,1 +1,3 @@
-# MachineLearnhomework
+该代码仓库主要用于保存本文 CIFAR-10 图像分类实验所需的程序文件，包括数据加载、模型定义、baseline 训练、正则化实验、数据增强实验、优化器对比实验以及混淆矩阵分析等内容。实验过程中生成的训练日志、准确率曲线、损失函数曲线和混淆矩阵图像也可作为论文结果分析的辅助材料。
+
+本文实验主要基于 PyTorch 框架实现。运行代码前需要安装 PyTorch、torchvision、NumPy 和 Matplotlib 等依赖库，并确保 CIFAR-10 数据集已经正确下载或放置在指定数据目录下。在具备 CUDA 环境的服务器上运行时，程序会自动调用 GPU 进行模型训练；若 CUDA 不可用，也可以在 CPU 环境下运行，但训练速度会相对较慢。# MachineLearnhomework
